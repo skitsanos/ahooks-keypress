@@ -1,0 +1,57 @@
+@import (css) url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+
+  display: flex;
+
+  font-family: 'Work Sans', sans-serif;
+}
+
+#root {
+  background-color: aliceblue;
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .footer {
+    padding-left: 2ch;
+    margin-top: 2ch;
+    font-size: 0.9ch;
+  }
+}
+
+.demo-box {
+  border: 1px dashed #ccc;
+  padding: 2ch;
+  background-color: #fff;
+
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+}
+
+.nav-panels {
+  margin: 0;
+  padding: 0;
+
+  .nav-item {
+    padding: 1ch;
+
+    list-style-type: none;
+    margin: 0;
+  }
+
+  .nav-item-selected {
+    background-color: aliceblue;
+  }
+
+  .nav-item-pressed {
+    background-color: #0076dc;
+    color: #fff;
+  }
+}
