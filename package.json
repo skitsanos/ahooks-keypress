@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "umi dev",
-    "build": "umi build"
+    "build": "umi build",
+    "deploy": "netlify deploy --dir=dist"
   },
   "dependencies": {
     "ahooks": "^3.1.9",

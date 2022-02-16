@@ -1,8 +1,8 @@
 import {useKeyPress, useSetState} from 'ahooks';
-import chance from 'chance';
+import Chance from 'chance';
 
 const items = Array.from({length: 30}, () => ({
-	id: new chance().guid()
+	id: new Chance().guid()
 }));
 const page = () =>
 {

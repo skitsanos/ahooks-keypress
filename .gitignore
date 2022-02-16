@@ -2,3 +2,5 @@
 node_modules
 */.umi*
 *.lock
+# Local Netlify folder
+.netlify
