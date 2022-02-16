@@ -46,7 +46,8 @@ const page = () =>
 			</ul>
 		</div>
 		<div className={'footer'}>
-			Designed by <a href={'http://skitsanos.com'}>Skitsanos</a>
+			Designed by <a href={'http://skitsanos.com'}>Skitsanos</a> | Source
+			code: <a href={'https://github.com/skitsanos/ahooks-keypress'}>https://github.com/skitsanos/ahooks-keypress</a>
 		</div>
 	</div>;
 };
